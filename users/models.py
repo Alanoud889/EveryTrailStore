@@ -28,4 +28,4 @@ class CustomUser(AbstractUser):
         self.save()
 
     def __str__(self):
-        return str(self.cust_name)
+        return str(self.username)

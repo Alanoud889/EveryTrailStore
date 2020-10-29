@@ -5,6 +5,6 @@ from .views import SignUpView
 
 urlpatterns = [
  path('signup/', SignUpView.as_view(), name='signup'),
+ path('home/', views.home, name='home'),
 ]
 
-path('', views.home, name='home'),
